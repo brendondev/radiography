@@ -119,9 +119,7 @@ ul{
 #divone .btn-get-started:hover {
   background: #004cb4;
 }
-#divone .animated {
-  animation: up-down 5s ease-in-out infinite alternate-reverse both;
-}
+
 
 @media (max-width: 991px) {
   #divone {
