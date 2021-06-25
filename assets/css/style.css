@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /*--------------------------------------------------------------
-# DIV1 INFOS
+# Visão Geral // divone
 --------------------------------------------------------------*/
 #divone {
  width: 100%;
@@ -82,10 +82,14 @@ ul{
 .img-fluiddog {
     width: 100%;
     height: auto;
-
 }
-#divone .container {
-  padding-top: 92px;
+.img-fluiddog {
+    width: 100%;
+    height: auto;
+}
+.img-rx {
+    width: 100%;
+    height: auto;
 }
 
 #divone h1 {
@@ -100,24 +104,6 @@ ul{
   color: rgba(255, 255, 255, 0.6);
   margin-bottom: 50px;
   font-size: 24px;
-}
-
-#divone .btn-get-started {
-  font-family: "Nirmala UI", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 10px 28px 11px 28px;
-  border-radius: 50px;
-  transition: 0.5s;
-  margin: 10px 0 0 0;
-  color: #fff;
-  background: #004cb4;
-}
-
-#divone .btn-get-started:hover {
-  background: #004cb4;
 }
 
 
@@ -197,10 +183,30 @@ ul{
   }
 }
 
+.vsgeral li{
+  padding-top: 5px;
+  font-size: 20px;
+}
 
-/*--------------------------------------------------------------
-# Visão Geral
---------------------------------------------------------------*/
+#vsgeral .btn-get-started {
+  font-family: "sans-serif;", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 28px 11px 28px;
+  border-radius: 10px;
+  transition: 0.5s;
+  margin: 10px 0 0 0;
+  color: #fff;
+  background: #004cb4;
+}
+
+#vsgeral .btn-get-started:hover {
+  background: #004cb4;
+}
+
+
 .vsgeral .content {
   padding: 60px 100px 0 100px;
   text-align: center;
