@@ -54,19 +54,18 @@
                           <div class="images">
                              <div class="images-inner">
                               <div class="image-slide">
-                                  <img src="assets/img/header_images.png" style="width: 100%;" class="img-rx" alt="">
+                                  <img src="assets/img/header_images.png" class="img-rx" alt="">
                               </div>
                               <div class="image-slide">
                                   <img src="assets/img/1500c_side_view.png" style="width: 100%;" class="img-rx" alt="">
                               </div>
                               <div class="image-slide">
-                                  <img src="assets/img/monitor_with_x_ray_software.png" style="width: 100%;" class="img-rx" alt="">
+                                  <img src="assets/img/monitor_with_x_ray_software.png" class="img-rx" alt="">
                               </div>
       </div>
     </div>
     </div>
           </div>
-                <script>history.scrollRestoration = "manual"</script>
 
           <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-right" data-aos-delay="100">
             <h1>DigiXRay DR</h1>
@@ -87,15 +86,10 @@
             <div class="p-2 bd-highlight"></div>
           </div>
       </div>
+      &nbsp;
           &nbsp;
           &nbsp;
           &nbsp;
-          &nbsp;
-          &nbsp;
-          &nbsp;
-          &nbsp;
-          &nbsp;
-    </section>
     </section>
     <!-- End hero -->
 
@@ -128,7 +122,7 @@
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-right" data-aos-delay="100">
             <h3>Visão Geral</h3>
-            <p style="color:#fff;">O  sistema  de  aquisição de  imagens  radiográficas  <b>DigiXRay™ DR</b>  foi  projetado para atender a 
+            <p style="color:#fff; text-align: justify;">O  sistema  de  aquisição de  imagens  radiográficas  <b>DigiXRay™ DR</b>  foi  projetado para atender a 
             uma  grande  faixa  de  aplicações  em  medicina  veterinária.    Nossos  painéis DR  possuem uma 
             variedade  de  tamanhos e tipos oferecendo soluções  específicas para cada aplicação radiográfica
             que o  moderno  médico veterinário necessite.     Foram   construidos  para  atender a norma IP64
@@ -147,6 +141,165 @@
       </div>
     </section>
     <!-- VISÃO GERAL -->
+
+
+    <!---GALERIA - RXDR 3 IMAGENS --->
+
+    <section id="galerytwo" class="galerytwo section-bg" style="background-color: #7a7a7a;">
+      <div class="container-fluid" data-aos="zoom-in">
+
+        <div class="row">
+          <div class="col-lg-6 d-flex align-items-center" data-aos="fade-left" data-aos-delay="100">
+            <h1 style="text-align: center;">DigiXRayDR™</h1>
+          </div>
+          <div  class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-right" data-aos-delay="100">
+            <p style="color:#fff;">De pequenos até grandes animais, nós possuimos a solução 
+            ideal e todo o suporte necessário para suas necessidades 
+            radiográficas.</p>    
+      </div>
+    </div>
+  </div>
+          <img data-aos="zoom-in" data-aos-delay="100" src="assets/img/glrtwo.png">
+
+      </section>
+
+    <!--FIM GALERIA - RXDR 3 IMAGEN -->
+
+
+    <!--SLIDE RECURSOS-->
+    <section id="slideid" style="background-color: #c3c3c3;"class="slideid section-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="d-flex justify-content-center">
+          <div></div>
+          <div>test</div>
+          <div></div>
+      </div>
+
+        <div class="fundoslide">
+<div class="slideshow-container">
+<div class="slideshow-inner">
+
+  <div class="mySlides">
+    <img  src='assets/img/fluxodetrabalho.png' style="width: 72%;"  alt="sally lightfoot crab"/>
+  </div>
+  <div class="mySlides">
+    <img  src='assets/img/processamentodaimagem.png' style='width: 72%;' alt="fighting nazca boobies"/>
+  </div>
+  <div class="mySlides">
+    <img  src='assets/img/visualizadorintegrado.png' style='width: 72%;' alt="otovalo waterfall"/>
+  </div>
+  <div class="mySlides">
+    <img  src='assets/img/diagnosticodeimagem.png' style='width: 72%;' alt="pelican"/>
+  </div>
+  
+  </div>
+
+
+</div>
+<br/>
+  </div>
+      <div style='text-align: center;'>
+        <div class="container" data-aos="zoom-in">
+        <div class="d-flex justify-content-center">
+              <button name="button" class="dot" onclick='currentSlide(1)' >Fluxo de Trabalho Otimizado</button>
+              <button name="button" class="dot" onclick='currentSlide(2)' >Processamento da Imagem</button>
+              <button name="button" class="dot" onclick='currentSlide(3)' >Visualizador <br>Integrado</button>
+              <button name="button" class="dot" onclick='currentSlide(4)' >Diagnóstico da<br>Imagem</button>
+
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+          &nbsp;
+          &nbsp;
+          &nbsp;
+          &nbsp;
+</div>
+</section>
+
+   
+
+<script type="text/javascript">
+  var slideIndex = 1;
+
+var myTimer;
+
+var slideshowContainer;
+
+window.addEventListener("load",function() {
+    showSlides(slideIndex);
+    myTimer = setInterval(function(){plusSlides(1)}, 4000);
+  
+    //COMMENT OUT THE LINE BELOW TO KEEP ARROWS PART OF MOUSEENTER PAUSE/RESUME
+    slideshowContainer = document.getElementsByClassName('slideshow-inner')[0];
+  
+    //UNCOMMENT OUT THE LINE BELOW TO KEEP ARROWS PART OF MOUSEENTER PAUSE/RESUME
+    // slideshowContainer = document.getElementsByClassName('slideshow-container')[0];
+  
+    slideshowContainer.addEventListener('mouseenter', pause)
+    slideshowContainer.addEventListener('mouseleave', resume)
+})
+
+// NEXT AND PREVIOUS CONTROL
+function plusSlides(n){
+  clearInterval(myTimer);
+  if (n < 0){
+    showSlides(slideIndex -= 1);
+  } else {
+   showSlides(slideIndex += 1); 
+  }
+  
+  //COMMENT OUT THE LINES BELOW TO KEEP ARROWS PART OF MOUSEENTER PAUSE/RESUME
+  
+  if (n === -1){
+    myTimer = setInterval(function(){plusSlides(n + 2)}, 4000);
+  } else {
+    myTimer = setInterval(function(){plusSlides(n + 1)}, 4000);
+  }
+}
+
+//Controls the current slide and resets interval if needed
+function currentSlide(n){
+  clearInterval(myTimer);
+  myTimer = setInterval(function(){plusSlides(n + 1)}, 4000);
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n){
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+
+pause = () => {
+  clearInterval(myTimer);
+}
+
+resume = () =>{
+  clearInterval(myTimer);
+  myTimer = setInterval(function(){plusSlides(slideIndex)}, 4000);
+}</script>
+      </section>
+
+
+
+<!--FIM SLIDE RECURSOS-->
+
+
+
+  <main id="main">
+
     
 
 
