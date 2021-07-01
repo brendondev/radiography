@@ -45,6 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 .back-to-top.active {
   visibility: visible;
   opacity: 1;
+  background: #c3c3c3;
 }
 
 
@@ -291,9 +292,6 @@ ul{
   float: right;
 }
 
-
-
-
 /* Movendo slids no conteiner */
 #slide1:checked ~ .images .images-inner {
   margin-left: 0;
@@ -304,9 +302,6 @@ ul{
 #slide3:checked ~ .images .images-inner {
   margin-left: -200%;
 }
-
-
-
 
 /* Cor dos bullets */
 #slide1:checked ~ div .fake-radio .radio-btn:nth-child(1),
@@ -479,3 +474,126 @@ left:70px;
   text-align: left;
 }
 
+/*Galery TWO*/
+#galerytwo{
+  width: 100%;
+}
+
+#galerytwo h1 {
+  padding: 0px 0px 0px px;
+  font-size: 53px;
+  color: #fff;
+  width: 50%;
+  min-width: 250px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#subtitulogtwo{
+  float: right;
+  width: 100%;
+
+}
+#galerytwo p{
+  color: #fff;
+  font-size: 23px;
+}
+
+#galerytwo img{
+  width:100%;
+  height: auto;
+}
+/*FIM DA Galeria TWO*/
+
+
+
+/*SLIDE 3*/
+
+.slideid{
+  background-color: #2b3d4e;
+  text-align: center;
+  color: #fff;
+  padding-top: 20px;
+  width: 100%;
+  height: auto;
+}
+
+.slideshow-container {
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.mySlides {
+  width: 100%;
+  height: auto;
+
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: #222428;
+    font-weight: bold;
+    font-size: 30px;
+    transition: .6s ease;
+    border-radius: 0 3px 3px 0
+}
+
+.next {
+    right: -50px;
+    border-radius: 3px 3px 3px 3px
+}
+
+.prev {
+    left: -50px;
+    border-radius: 3px 3px 3px 3px
+}
+
+.prev:hover,
+.next:hover {
+    color: #f2f2f2;
+    background-color: rgba(0, 0, 0, 0.8)
+}
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding-top: 12px;
+  padding-bottom: 12px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #222428
+}
+
+
+
+.dot {
+    cursor: pointer;
+    display: inline-block;
+    transition: background-color .6s ease;
+    border-color: transparent;
+    white-space: normal;
+    word-wrap: break-word;
+    background-color: #7a7a7a;
+    width: 200px;
+    color: #fff;
+ width: 150px;
+
+}
+
+.active,
+.dot:hover {
+    color: #62ed25;
+    background-color: #7a7a7a;
+}
+
+
+/*FIM DO SLIDE 3*/
