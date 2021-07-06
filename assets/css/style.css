@@ -5,6 +5,8 @@
 body {
   font-family: "Nirmala UI", sans-serif;
   color: #000;
+  scroll-behavior: smooth;
+
 }
 
 
@@ -29,6 +31,8 @@ h1, h2, h3, h4, h5, h6 {
   height: 40px;
   border-radius: 50px;
   transition: all 0.4s;
+  
+
 }
 
 .back-to-top i {
@@ -45,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
 .back-to-top.active {
   visibility: visible;
   opacity: 1;
-  background: #c3c3c3;
+  background: red;
 }
 
 
@@ -456,6 +460,7 @@ ul{
 
 .services h1{
   padding-top: 20px;
+  margin: auto;
 }
 
 .services .icon-box h4 a {
@@ -464,14 +469,25 @@ ul{
 }
 
 .services .card{
-width: 66%;
+width: 288px;
 height: auto;
-background-color: #2a3c4c;
-left:70px;
+background-color: transparent;
+text-align: center;
+margin: auto;
+border:  0px;
+
 
 }
 .services .card-text{
   text-align: left;
+}
+
+.card-body {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 0px;
+    border-color: transparent;
 }
 
 /*Galery TWO*/
@@ -513,14 +529,14 @@ left:70px;
   background-color: #2b3d4e;
   text-align: center;
   color: #fff;
-  padding-top: 20px;
+  padding-top: 10px;
   width: 100%;
   height: auto;
 }
 
 .slideshow-container {
-    max-width: 100%;
-    height: auto;
+    max-width: 92%;
+    height: 30%;
     margin: auto;
 }
 
@@ -583,17 +599,61 @@ left:70px;
     white-space: normal;
     word-wrap: break-word;
     background-color: #7a7a7a;
-    width: 200px;
     color: #fff;
- width: 150px;
+    display:block;
+    margin: auto;
+}
 
+.dot:focus{
+  outline: none;
 }
 
 .active,
 .dot:hover {
     color: #62ed25;
-    background-color: #7a7a7a;
+    background-color: transparent;
+    border-color: transparent;
 }
 
+.titulo-slide{
+  background-color: #7a7a7a;
+  width: 89%;
+  height: auto;
+  color: black;
+  font-size: auto;
+  border-radius: 10px;
+  color: #fff;
+  text-align: left;
+}
+
+.fundo-botoes{
+  background-color: #7a7a7a;
+  width: 74%;
+  height: auto;
+  color: black;
+  border-radius: 10px;
+
+  font-size: auto;
+  margin: auto;
+}
+
+.dot.moveslide{
+  position: absolute;
+  margin: auto;
+}
 
 /*FIM DO SLIDE 3*/
+
+
+
+
+
+/* testes */
+
+
+.hm-gradient {
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+}
+.darken-grey-text {
+    color: #2E2E2E;
+}
