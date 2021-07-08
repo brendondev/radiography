@@ -481,6 +481,9 @@ border:  0px;
 .services .card-text{
   text-align: left;
 }
+.row{
+  margin-right: 0px;
+}
 
 .card-body {
     -webkit-box-flex: 1;
